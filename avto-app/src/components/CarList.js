@@ -128,7 +128,6 @@ const CarList = ({ cars, username, onUpdateCar, onDeleteCar , onAddCar}) => {
         </Modal.Footer>
       </Modal>
 
-      {/* Edit Modal */}
       <Modal show={showEditModal} onHide={() => setShowEditModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>Edit Car</Modal.Title>
@@ -185,7 +184,6 @@ const CarList = ({ cars, username, onUpdateCar, onDeleteCar , onAddCar}) => {
         </Modal.Footer>
       </Modal>
 
-      {/* Delete Confirmation Modal */}
       <Modal show={showDeleteModal} onHide={() => setShowDeleteModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>Confirm Delete</Modal.Title>
